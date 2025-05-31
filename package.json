@@ -1,0 +1,22 @@
+{
+  "name": "ai-mock-interview-app",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "drizzle:push": "drizzle-kit push"
+  },
+  "dependencies": {
+    "@clerk/nextjs": "^4.0.0",
+    "drizzle-orm": "^0.29.0",
+    "pg": "^8.11.1",
+    "react": "^18.0.0",
+    "next": "^14.0.0",
+    "dotenv": "^16.0.0"
+  },
+  "devDependencies": {
+    "drizzle-kit": "^0.20.12"
+  }
+}
